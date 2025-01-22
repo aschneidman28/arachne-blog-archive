@@ -125,43 +125,51 @@ app.post('/auth/signup', async (req, res) => {
 });
 
 app.post('/auth/login', async (req, res) => {
- try {
-   const { username, password } = req.body;
+  try {
+    console.log('Login attempt with:', req.body);  // Add this
+    const { username, password } = req.body;
 
-   const result = await pool.query(
-     'SELECT * FROM users WHERE username = $1',
-     [username]
-   );
+    const result = await pool.query(
+      'SELECT * FROM users WHERE username = $1',
+      [username]
+    );
 
-   if (result.rows.length === 0) {
-     return res.status(401).json({ error: 'Invalid username or password' });
-   }
+    if (result.rows.length === 0) {
+      console.log('No user found with username:', username);  // Add this
+      return res.status(401).json({ error: 'Invalid username or password' });
+    }
 
-   const user = result.rows[0];
-   const validPassword = await bcrypt.compare(password, user.password_hash);
+    const user = result.rows[0];
+    console.log('User found:', { id: user.id, username: user.username });  // Add this
+    
+    const validPassword = await bcrypt.compare(password, user.password_hash);
 
-   if (!validPassword) {
-     return res.status(401).json({ error: 'Invalid username or password' });
-   }
+    if (!validPassword) {
+      console.log('Invalid password for user:', username);  // Add this
+      return res.status(401).json({ error: 'Invalid username or password' });
+    }
 
-   const token = jwt.sign(
-     { userId: user.id },
-     process.env.JWT_SECRET,
-     { expiresIn: '24h' }
-   );
+    const token = jwt.sign(
+      { userId: user.id },
+      process.env.JWT_SECRET,
+      { expiresIn: '24h' }
+    );
 
-   res.json({
-     message: 'Logged in successfully',
-     user: {
-       id: user.id,
-       username: user.username
-     },
-     token
-   });
- } catch (error) {
-   console.error('Login error:', error);
-   res.status(500).json({ error: 'Error logging in' });
- }
+    res.json({
+      message: 'Logged in successfully',
+      user: {
+        id: user.id,
+        username: user.username
+      },
+      token
+    });
+  } catch (error) {
+    console.error('Detailed login error:', error);  // Enhance this
+    res.status(500).json({ 
+      error: 'Error logging in',
+      details: error.message  // Add this for debugging
+    });
+  }
 });
 
 // Story endpoints
