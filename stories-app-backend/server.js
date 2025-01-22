@@ -12,13 +12,16 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: [
-    'https://stories-app-alex-frontend-9079b86cf132.herokuapp.com',
-    'http://localhost:5173' // for local development
-  ],
+  origin: '*', // More permissive for testing
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS', 'PATCH'],
+  allowedHeaders: ['Content-Type', 'Authorization', 'Origin', 'Accept'],
+  exposedHeaders: ['Content-Range', 'X-Content-Range'],
   credentials: true
 }));
 app.use(express.json());
+
+// Add a pre-flight handler
+app.options('*', cors());
 
 // Database connection
 const pool = new Pool({
