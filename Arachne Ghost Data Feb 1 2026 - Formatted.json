@@ -1,0 +1,192 @@
+{
+  "blog": {
+    "title": "Arachne",
+    "url": "https://arachne.ghost.io",
+    "description": "Weaving stories, ideas, and reflections at the intersection of mythology and technology.",
+    "language": "en",
+    "timezone": "America/New_York",
+    "theme": "casper",
+    "exported_on": "Sunday, February 1, 2026",
+    "ghost_version": "5.82.0"
+  },
+  "author": {
+    "name": "Arachne Author",
+    "bio": "Writer, weaver of digital threads. Exploring the intersections of mythology, technology, and memory.",
+    "website": "https://arachne.ghost.io"
+  },
+  "tags": [
+    {
+      "name": "Mythology",
+      "description": "Posts exploring myths, legends, and their modern resonance."
+    },
+    {
+      "name": "Technology",
+      "description": "Posts about technology, digital culture, and computing history."
+    },
+    {
+      "name": "Memory",
+      "description": "Posts about memory, nostalgia, and the construction of personal narrative."
+    },
+    {
+      "name": "Writing",
+      "description": "Posts about the craft and practice of writing."
+    },
+    {
+      "name": "Reflections",
+      "description": "Personal essays and meditations."
+    }
+  ],
+  "posts": [
+    {
+      "title": "Welcome to Arachne",
+      "slug": "welcome-to-arachne",
+      "published": "Monday, September 15, 2025",
+      "excerpt": "An introduction to the Arachne blog — weaving stories together.",
+      "tags": [
+        "Reflections"
+      ],
+      "featured": false,
+      "feature_image": null,
+      "word_count": 32,
+      "content": "Welcome to Arachne, a space for weaving together stories, ideas, and reflections. This blog is an experiment in digital storytelling — a place where threads of thought come together into something larger."
+    },
+    {
+      "title": "The Thread of Memory",
+      "slug": "the-thread-of-memory",
+      "published": "Tuesday, September 23, 2025",
+      "excerpt": "Memory is not a fixed thing — it is a tapestry we weave and reweave.",
+      "tags": [
+        "Memory",
+        "Reflections"
+      ],
+      "featured": true,
+      "feature_image": "https://images.unsplash.com/photo-thread-memory",
+      "word_count": 110,
+      "content": "Memory is not a fixed thing. It shifts, bends, and rewrites itself over time. What we remember is less a recording and more a reconstruction — a story we tell ourselves about who we were.\n\nIn Greek mythology, Mnemosyne was the goddess of memory and the mother of the nine Muses. The ancients understood that memory and creativity are inseparable. To remember is to create, and to create is to remember.\n\nThis is the paradox of personal narrative: the more we revisit a memory, the more we change it. Each retelling is a new thread woven into the original fabric, until the tapestry of our past becomes something entirely new."
+    },
+    {
+      "title": "Digital Looms",
+      "slug": "digital-looms",
+      "published": "Monday, October 6, 2025",
+      "excerpt": "From the Jacquard loom to the world wide web — the ancient art of weaving pattern from chaos.",
+      "tags": [
+        "Technology",
+        "Mythology"
+      ],
+      "featured": false,
+      "feature_image": "https://images.unsplash.com/photo-jacquard-loom",
+      "word_count": 121,
+      "content": "The Jacquard loom, invented in 1804, used punched cards to control the pattern of a weave. It was, in a very real sense, one of the first programmable machines. Ada Lovelace saw in Charles Babbage's Analytical Engine the same principle: the machine, she wrote, could weave algebraic patterns just as the Jacquard loom weaves flowers and leaves.\n\nToday we weave with pixels and data. Our looms are laptops and servers, our threads are bits and bytes. But the fundamental act remains the same: taking raw material and creating pattern, structure, meaning.\n\nWhen I started this blog, I wanted to explore that continuity — the line that runs from ancient weavers to modern coders, from Arachne's loom to the world wide web."
+    },
+    {
+      "title": "On Impermanence",
+      "slug": "on-impermanence",
+      "published": "Tuesday, October 21, 2025",
+      "excerpt": "Every archive is an argument that the past has value.",
+      "tags": [
+        "Reflections",
+        "Memory"
+      ],
+      "featured": false,
+      "feature_image": "https://images.unsplash.com/photo-penelope-weaving",
+      "word_count": 110,
+      "content": "Penelope wove by day and unraveled by night. Her weaving was an act of resistance — a way to hold time still, to keep the future at bay. But it was also an acknowledgment that nothing we make is permanent.\n\nDigital content is even more ephemeral than thread. Websites disappear. Servers shut down. Links rot. The average lifespan of a webpage is about 100 days. We are building a civilization on sand.\n\nThat is part of why I wanted to create this archive. Not because I think these words are especially important, but because the act of preservation itself matters. Every archive is an argument that the past has value."
+    },
+    {
+      "title": "Patterns in the Noise",
+      "slug": "patterns-in-the-noise",
+      "published": "Tuesday, November 4, 2025",
+      "excerpt": "Writing is pattern-making — a small act of cosmos-building.",
+      "tags": [
+        "Writing",
+        "Reflections"
+      ],
+      "featured": false,
+      "feature_image": null,
+      "word_count": 107,
+      "content": "We are pattern-seeking creatures. We see faces in clouds, constellations in random stars, meaning in coincidence. This tendency — pareidolia, apophenia — is not a bug. It is the fundamental engine of human cognition.\n\nWriting is pattern-making. You take the raw noise of experience and impose structure: narrative, argument, metaphor. A blog post is a small act of cosmos-building, a tiny pocket of order carved out of entropy.\n\nI have been thinking about what it means to write in public, to pattern-make where others can see. There is a vulnerability in it. The patterns you find reveal as much about you as they do about the world."
+    },
+    {
+      "title": "The Myth of Arachne",
+      "slug": "the-myth-of-arachne",
+      "published": "Wednesday, November 19, 2025",
+      "excerpt": "On the myth that gave this blog its name — and the stubborn dignity of making things.",
+      "tags": [
+        "Mythology",
+        "Writing"
+      ],
+      "featured": true,
+      "feature_image": "https://images.unsplash.com/photo-arachne-spider-web",
+      "word_count": 176,
+      "content": "Arachne was a mortal weaver who dared to challenge Athena to a weaving contest. Depending on the version of the myth, Arachne either won or produced work so flawless that Athena could not find fault with it. In either case, Athena was enraged, and transformed Arachne into a spider — condemned to weave forever.\n\nI have always found this myth unsettling. Arachne's crime was not hubris in the usual sense. She did not claim to be a god. She simply refused to diminish her own skill. She insisted on the truth of her craft, and was punished for it.\n\nThere is something deeply resonant about a myth where the punishment for excellence is to be trapped in an endless loop of creation. Is that not what drives any maker — the compulsion to keep weaving, even when the work goes unseen?\n\nThis blog takes its name from Arachne because I believe in the stubborn dignity of making things. Not for glory, not for an audience, but because the thread is there and the loom is ready."
+    },
+    {
+      "title": "Winter Light",
+      "slug": "winter-light",
+      "published": "Thursday, December 11, 2025",
+      "excerpt": "Some ideas need the slow gestation of winter.",
+      "tags": [
+        "Reflections"
+      ],
+      "featured": false,
+      "feature_image": null,
+      "word_count": 115,
+      "content": "The light changes in December. It comes in at a lower angle, turning everything golden for a few hours in the afternoon before the dark rushes in. I have always done my best thinking in this light.\n\nThere is a reason so many cultures place their festivals of light in the darkest part of the year. We need reminding that light returns. That the thread does not end just because we cannot see where it leads.\n\nI have been writing less frequently these past weeks. Not because I have nothing to say, but because some ideas need longer to form. They need the slow gestation of winter, the quiet accumulation of frost before the thaw."
+    },
+    {
+      "title": "New Year, Same Loom",
+      "slug": "new-year-same-loom",
+      "published": "Saturday, January 3, 2026",
+      "excerpt": "The loom does not care what day it is.",
+      "tags": [
+        "Reflections",
+        "Writing"
+      ],
+      "featured": false,
+      "feature_image": null,
+      "word_count": 123,
+      "content": "I do not believe in new beginnings. Or rather, I do not believe they require a specific date on the calendar. Every morning is a new beginning. Every sentence is a new beginning. The loom does not care what day it is.\n\nStill, there is something about January that invites reflection. The blog is now four months old. I have written seven posts. That is not a lot by any measure, but each one represents a genuine attempt to think through something that matters to me.\n\nIn 2026, I want to write more about technology and mythology — the ways our oldest stories anticipate our newest tools. I want to explore the spaces between disciplines, where the most interesting threads tend to hide."
+    }
+  ],
+  "pages": [
+    {
+      "title": "About",
+      "slug": "about",
+      "published": "Monday, September 15, 2025",
+      "content": "Arachne is a personal blog about the intersections of technology, mythology, memory, and the craft of writing. It is written by a human who thinks a lot about threads — literal and metaphorical.\n\nThe name comes from the Greek myth of Arachne, a weaver who challenged the goddess Athena. This blog is not a challenge to any gods, but it is an insistence that the act of making — of weaving words into meaning — has value in itself."
+    }
+  ],
+  "summary": {
+    "total_posts": 8,
+    "total_pages": 1,
+    "total_tags": 5,
+    "featured_posts": 2,
+    "total_word_count": 894,
+    "date_range": {
+      "earliest": "Monday, September 15, 2025",
+      "latest": "Saturday, January 3, 2026"
+    },
+    "posts_by_tag": [
+      {
+        "tag": "Reflections",
+        "count": 6
+      },
+      {
+        "tag": "Writing",
+        "count": 3
+      },
+      {
+        "tag": "Mythology",
+        "count": 2
+      },
+      {
+        "tag": "Memory",
+        "count": 2
+      },
+      {
+        "tag": "Technology",
+        "count": 1
+      }
+    ]
+  }
+}
